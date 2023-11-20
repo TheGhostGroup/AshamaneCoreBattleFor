@@ -1,21 +1,111 @@
-# ![logo](AzgathBFA.png) Az'gathCore Battle for Azeroth 8.3.7.35662
+# AshamaneCore Reworked By WoW Emulation Project.
 
+--------------
+
+
+* [Build Status](#build-status)
+* [Introduction](#introduction)
 * [Requirements](#requirements)
-* [Discord](#discord)
+* [Install](#install)
+* [Reporting issues](#reporting-issues)
+* [Submitting fixes](#submitting-fixes)
+* [Copyright](#copyright)
+* [Authors &amp; Contributors](#authors--contributors)
+* [Links](#links)
+
+
+
+## Build Status
+
+NYI
+
+## Introduction
+
+AshamaneCore is a *MMORPG* Framework based mostly in C++.
+
+It is fully based on *TrinityCore*, with upgrades like :
+
+- Class Hall/War Campaign Basics (WIP)
+- World Quests
+- Challenge Mode (Mythic+)
+- Mercenary battleground system
+- Rated Arenas
+- TimeWalkers (BC/WotLK/Cataclsym/MoP)
+- Personnal loots
+- BFA Scripts (WIP)
+    - Heart of Azeroth questline
+    - Alliance Intro (escape from prison)
+    - Horde Intro (Stormwind extraction)
+    - The Underrot
+- Legion scripts (WIP)
+    - BlackRookHold
+    - Darkheart Thicket
+    - Eye Of Azshara
+    - Mardum (DH start zone)
+    - Emerald Nightmare (1/7)
+    - Tomb of Sargeras (1/9)
+- Wod Scripts (WIP)
+    - full blizzlike Jungle of Tanaan intro
+    - Garrison pre-quests (for both Horde & Alliance)
+    - Garrison building activation
+    - Bloodmaul Slagmines
+    - Everbloom
+    - Shadowmoon Burial Grounds
+    - Highmaul
+- Pandaria Scripts
+    - all dungeons & world bosses
+
+with Ashamane Database (ADB) :
+
+- All Cataclysm zones spawns
+- All Mist of Pandaria zones spawns
+- All Draenor zones spawns
+- All Legion zones spawns
+- All BFA spawns (up to 8.0.1)
+
+It is completely open source; community involvement is highly encouraged.
+
+If you wish to contribute ideas or code please visit our site linked below or
+make pull requests to our [Github repository](https://github.com//WoWEmulationProject/AshamaneCoreBattleFor/pulls).
 
 ## Requirements
 
-+ Platform: Windows
-+ Processor with SSE2 support
-+ [Git Extensions](https://github.com/AzgathCore/AzgathCoreBFA/blob/AzgathCoreBFA/tools/server_software/Git/Git-2.31.0-64-bit.exe)
-+ [MS Visual Studio ≥ 16.4 (2019)](https://github.com/AzgathCore/AzgathCoreBFA/blob/AzgathCoreBFA/tools/server_software/VisualStudio/vs_community__535742213.1615944389.exe)
-+ [MariaDB ≥ 10.5.8](https://github.com/AzgathCore/AzgathCoreBFA/blob/AzgathCoreBFA/tools/server_software/MariaDB/mariadb-10.5.8-winx64.msi)
-+ [Boost ≥ 1.72](https://github.com/AzgathCore/AzgathCoreBFA/releases/tag/boost_1.72)
-+ [CMake ≥ 3.19.1](https://github.com/AzgathCore/AzgathCoreBFA/blob/AzgathCoreBFA/tools/server_software/CMake/cmake-3.19.1-win64-x64.msi)
-+ [OpenSSL ≥ v1.1.1i](https://github.com/AzgathCore/AzgathCoreBFA/blob/AzgathCoreBFA/tools/server_software/OpenSSL/Win64OpenSSL-1_1_1i.exe)
-+ [Server software dependency](https://github.com/AzgathCore/AzgathCoreBFA/tree/AzgathCoreBFA/tools/server_software)
+Software requirements are available in the [wiki](https://www.trinitycore.info/display/tc/Requirements) for
+Windows, Linux and macOS.
 
-## Discord
+## Install
 
-+ [Az'gathCore](https://discord.gg/QKhRu5XcSc)
+Detailed installation guides are available in the [wiki](https://www.trinitycore.info/display/tc/Installation+Guide) for
+Windows, Linux and macOS.
+
+## Contribute
+
+
+## Reporting issues
+
+Issues can be reported via our [Github issue tracker](https://github.com/WoWEmulationProject/AshamaneCoreBattleFor/issues).
+
+Please take the time to review existing issues before submitting your own to
+prevent duplicates.
+
+## Submitting fixes
+
+C++ fixes are submitted as pull requests via Github.
+For SQL only fixes open a ticket or if a bug report exists for the bug post on existing ticket.
+
+## Copyright
+
+License: GPL 2.0
+
+Read file [COPYING](COPYING).
+
+## Authors &amp; Contributors
+
+Read file [AUTHORS](AUTHORS).
+
+## Links
+
+* [Website]https://github.com/WoWEmulationProject)
+* [Wiki](https://www.trinitycore.info)
+
 
